@@ -1,0 +1,44 @@
+#my-works {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#my-works h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#my-works p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.video-container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cta {
+  margin-top: 40px;
+}
+
+.cta p {
+  font-size: 1.2em;
+}
+
+.cta a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.cta a:hover {
+  text-decoration: underline;
+}

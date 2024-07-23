@@ -1,0 +1,53 @@
+/*body{
+  font-family: Verdana;
+  font-size: 2em;
+}
+
+#countlabel
+{
+    font-size: 1.5em;
+    color: brown;
+   display: block;
+   text-align: center;
+   
+}
+#btncontainer
+{
+  text-align: center;
+}
+#resetbtn
+{
+ inline-size: 120px;
+}
+.buttons
+{
+ background-color: rgb(88, 88, 138);
+ color: white;
+ border-radius: 1em;
+ padding:1em;
+ cursor: pointer;
+ transition: background-color 1s;
+
+
+}
+.buttons:hover
+{
+  background-color: rgb(6, 6, 153);
+}
+*/
+body{
+  font-family:Verdana ;
+  text-align: center;
+}
+#Mybutton{
+  font-size: 3em;
+  padding: 5px, 25px;
+  border-radius: 5px;
+}
+#l{
+  font-size: 2em;
+}
+#p{
+  font-family: inherit;
+  font-size: 20px;
+}

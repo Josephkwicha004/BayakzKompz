@@ -21,7 +21,7 @@ body {
 
 .image-container {
   width: 100%;
-  height: 500px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,9 +29,9 @@ body {
 }
 
 .image-container img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  max-height:500px;
+  max-height:800px;
 }
 
 .controls {

@@ -9,7 +9,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background: #fff;
+  background: #f3f717;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -50,7 +50,4 @@ h1 {
 }
 .button:hover {
   background-color: #357ab8;
-}
-.span div {
-  color: aqua
 }

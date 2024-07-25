@@ -1,3 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.home p {
+  text-align: center;
+}
+
+.home button {
+  border-radius: 5px;
+  background-color: #f3f717;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.home button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
 #my-works {
   padding: 50px 20px;
   background-color: #d4d239;
@@ -15,7 +38,7 @@
 }
 
 #video-container {
-  margin: 0 auto;
+  margin: auto;
   max-width: 800px;
 }
 
@@ -34,24 +57,11 @@
   font-size: 1.2em;
 }
 
-.cta a {
+#cta a {
   color: #007BFF;
   text-decoration: none;
 }
 
 #cta a:hover {
   text-decoration: underline;
-}
-.home button{
-  border-radius: 5px;
-  background-color: #f3f717;
-  transition: background 0.3s;
-  display: inline-block;
-}
-.home p{
-  text-align: center;
-}
-.home button:hover {
-   background-color: darkgreen;
-   cursor: pointer;
 }

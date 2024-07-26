@@ -47,7 +47,7 @@ input:focus, textarea:focus {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #007BFF;
+  background-color: darkgreen;
   color: white;
   border: none;
   border-radius: 4px;
@@ -55,7 +55,8 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: lawngreen;
+  transition: background="0.3sec";
 }
 
 #formMessage {
@@ -71,7 +72,7 @@ button:hover {
 }
 
 .contact-info a {
-  color: #007BFF;
+  color: darkgreen;
   text-decoration: none;
 }
 

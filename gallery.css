@@ -42,7 +42,7 @@ body {
 }
 
 .controls button {
-  background-color: #3498db;
+  background-color:rgb(233, 236, 43);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -53,5 +53,5 @@ body {
 }
 
 .controls button:hover {
-  background-color: #2980b9;
+  background-color:darkgreen;
 }

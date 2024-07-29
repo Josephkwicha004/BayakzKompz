@@ -7,23 +7,25 @@ body {
 
 .home p {
   text-align: center;
+
 }
 
 .home button {
   border-radius: 5px;
-  background-color: #f3f717;
+  background-color: darkgreen;
   transition: background 0.3s;
   display: inline-block;
+  color: white;
 }
 
 .home button:hover {
-  background-color: darkgreen;
+  background-color: lightgreen;
   cursor: pointer;
 }
 
 #my-works {
   padding: 50px 20px;
-  background-color: #d4d239;
+  background-color:#e7f522;
   text-align: center;
 }
 

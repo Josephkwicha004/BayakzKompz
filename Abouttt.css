@@ -9,7 +9,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background: #f3f717;
+  background:  #e7f522;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -22,6 +22,7 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .about img {
   max-width: 200px;
   border-radius: 50%;
@@ -43,24 +44,28 @@ h1 {
   padding: 10px 20px;
   margin: 10px 0;
   border-radius: 25px;
-  background-color: #4a90e2;
+  background-color:#333;
   color: white;
   text-decoration: none;
   transition: background 0.3s;
 }
 .button:hover {
-  background-color: #357ab8;
+  background-color:darkgreen;
 }
 .home button{
   border-radius: 5px;
-  background-color: #f3f717;
+  background-color: darkgreen;
   transition: background 0.3s;
   display: inline-block;
+  color: white;
 }
 .home p{
   text-align: center;
 }
 .home button:hover {
-   background-color: darkgreen;
+   background-color: greenyellow;
    cursor: pointer;
+}
+a{
+  text-decoration: none;
 }

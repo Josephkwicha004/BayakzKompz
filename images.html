@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photo Gallery</title>
-  <link rel="stylesheet" href="gallery.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph's Image Gallery</title>
+    <link rel="stylesheet" href="image.css">
 </head>
 <body>
-  <div class="gallery-container">
-    <div class="image-container">
-      <img id="gallery-image" src="images/photo1.jpg" alt="Gallery Image">
+    <div class="gallery">
+        <div class="image-container">
+            <img src="p7.jpg" alt="School Image">
+            <div class="description">
+                I went to Friends School Kamusinga (High School) 
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="p10.jpg" alt="Church Image">
+            <div class="description">
+                I fellowship at Miracle Revival Fellowship Pentecostal Church.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="p4.jpg" alt="Football Image">
+            <div class="description">
+                I enjoy playing football as a co-curricular activity.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="p5.jpg" alt="University Image">
+            <div class="description">
+                Currently, I am taking classes at Laikipia University.
+            </div>
+        </div>
     </div>
-    <div class="controls">
-      <button onclick="prevImage()">&#10094; Previous</button>
-      <button onclick="nextImage()">Next &#10095;</button>
-    </div>
-  </div>
-
-    
-  <script src="gallery.js"></script>
+    <script src=".js"></script>
 </body>
-
 </html>
